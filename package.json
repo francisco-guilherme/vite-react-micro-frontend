@@ -1,0 +1,15 @@
+{
+  "name": "react-vite-micro-frontend",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "pnpm -r dev",
+    "build": "pnpm -r build",
+    "preview": "pnpm -r preview",
+    "serve": "pnpm -r serve",
+    "check": "biome check --apply-unsafe ."
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.7.3"
+  }
+}
